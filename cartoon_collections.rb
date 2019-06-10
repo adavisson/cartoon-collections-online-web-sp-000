@@ -10,7 +10,7 @@ def summon_captain_planet(calls)# code an argument here
   # Your code here
   
   calls.map do |call|
-    call. << "!"
+    call.capitalize << "!"
   end
   
 end
