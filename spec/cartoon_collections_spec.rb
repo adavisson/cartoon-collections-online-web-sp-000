@@ -48,7 +48,6 @@ describe "Cartoon Collections" do
       calls_short = ["wind", "fire", "tree", "axe", "code"]
       expect(long_planeteer_calls(calls_short)).to eq(false)
     end
-
   end
 
   describe "#find_the_cheese" do
