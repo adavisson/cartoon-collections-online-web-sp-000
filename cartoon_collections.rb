@@ -11,6 +11,7 @@ def summon_captain_planet(calls)# code an argument here
   
   calls.map do |call|
     call.upcase << "!"
+  end
   
 end
 
